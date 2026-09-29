@@ -1,12 +1,12 @@
 SET SERVEROUTPUT ON;
 
 DECLARE
-    marks NUMBER := 45;
+    marks NUMBER := 60;
 BEGIN
-    IF marks >= 40 THEN
-        DBMS_OUTPUT.PUT_LINE('PASS');
+    IF marks >= 50 THEN
+        DBMS_OUTPUT.PUT_LINE('Pass');
     ELSE
-        DBMS_OUTPUT.PUT_LINE('FAIL');
+        DBMS_OUTPUT.PUT_LINE('Fail');
     END IF;
 END;
 /
